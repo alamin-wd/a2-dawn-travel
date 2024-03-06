@@ -175,3 +175,37 @@ ul>li{
 
 }
 /*Tours section end */
+/* Destination Section Start */
+.destination-container{
+    margin: 100px 20px;
+    text-align: center;
+
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+.img-container{
+    position: relative;
+    margin: 0px 10px;
+
+}
+.img-text>a{
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+}
+.img-text>a:hover{
+    text-decoration: underline;
+}
+
+
+/* Destination Section end */
